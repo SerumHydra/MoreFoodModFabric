@@ -15,12 +15,12 @@
   },
 
   "license": "eupl-1.1",
-  "icon": "assets/mofood/icon.png",
+  "icon": "assets/morefood/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.SerumHydra.morefood.MoreFood"
+      "com.serumhydra.morefood.MoreFood"
     ]
   },
   "mixins": [
