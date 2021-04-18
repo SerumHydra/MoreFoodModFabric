@@ -2,6 +2,7 @@ package com.serumhydra.morefood.registery;
 
 import com.serumhydra.morefood.MoreFood;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -9,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 
 public class Moditems {
     //items
-    public static final Item BACON = new Item(new Item.Settings().group(ItemGroup.FOOD));
+    public static final Item BACON = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(6f).meat().build()));
     //Block Items
     public static final BlockItem BACON_BLOCK = new BlockItem(ModBlocks.BACON_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
     //registry
