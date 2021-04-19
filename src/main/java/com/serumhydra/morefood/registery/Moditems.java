@@ -11,11 +11,13 @@ import net.minecraft.util.registry.Registry;
 public class Moditems {
     //items
     public static final Item BACON = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(6f).meat().build()));
+    public static final Item ICE_CREAM = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(4f).build()));
     //Block Items
     public static final BlockItem BACON_BLOCK = new BlockItem(ModBlocks.BACON_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
     //registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "bacon"), BACON);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "bacon_block"), BACON_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "ice_cream"), ICE_CREAM);
     }
 }
