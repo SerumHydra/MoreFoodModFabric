@@ -35,4 +35,4 @@ If you have discovered an issue with my mod, please do not hesitate to ask anyth
 
 ----
 ### License
-MoreFood is licensed under CCO-1.0. If you want to know more, poke your nose in the [license file](https://github.com/SerumHydra/MoreFoodModFabric/blob/main/LICENSE)
+MoreFood is licensed under eupl-1.1. If you want to know more, poke your nose in the [license file](https://github.com/SerumHydra/MoreFoodModFabric/blob/main/LICENSE)
