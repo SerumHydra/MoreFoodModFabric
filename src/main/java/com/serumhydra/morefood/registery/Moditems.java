@@ -10,10 +10,10 @@ import net.minecraft.util.registry.Registry;
 
 public class Moditems {
     //items
-    public static final Item BACON = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(6f).meat().build()));
-    public static final Item ICE_CREAM = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(2).saturationModifier(4f).build()));
+    public static final Item BACON = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(3).saturationModifier(6f).meat().build()));
+    public static final Item ICE_CREAM = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(2).saturationModifier(4f).build()));
     //Block Items
-    public static final BlockItem BACON_BLOCK = new BlockItem(ModBlocks.BACON_BLOCK, new Item.Settings().group(ItemGroup.FOOD));
+    public static final BlockItem BACON_BLOCK = new BlockItem(ModBlocks.BACON_BLOCK, new Item.Settings().group(MoreFood.FOOD_GROUP));
     //registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "bacon"), BACON);
