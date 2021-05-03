@@ -13,7 +13,7 @@
 | Author   | Role   | Links   |
 |:---------|:-------|:--------|
 | Hydra | Mod Lead | [Contributions](https://www.github.com/SerumHydra/MoreFoodModFabric/commits?author=SerumHydra) |
-| NoComemnt | Code Contributor| [Contributions](https://www.github.com/SerumHydra/MoreFoodModFabric/commits?author=SerumHydra) |
+| NoComment | Code Contributor| [Contributions](https://www.github.com/SerumHydra/MoreFoodModFabric/commits?author=SerumHydra) |
 ### Versioning
 This mod is 1.16.x at it's oldest. I am **NOT** going to back-port this mod to any older versions
 I will try my hardest to updates this mod, in its latest release at the time, on the day of the next version
