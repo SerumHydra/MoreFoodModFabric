@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "mofood",
   "version": "0.0.1",
-
   "name": "More Food",
   "description": "This mod is designed so that vanilla minecraft mods will drop more than what they just drop in vanilla, e.g Pigs will drop bacon.",
   "authors": [
@@ -13,10 +12,8 @@
     "homepage": "https://github.com/SerumHydra/MoreFoodModFabric",
     "sources": "https://github.com/SerumHydra/MoreFoodModFabric"
   },
-
   "license": "eupl-1.1",
   "icon": "assets/morefood/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,13 +22,8 @@
   },
   "mixins": [
   ],
-
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabric": "*"
   }
 }
