@@ -28,7 +28,7 @@ To build this mod in its dev version you need to follow some steps to compile it
 You will need to have a JDK 8 or greater installed on your computer to build my mod. An easy location to acquire one of these is on [AdoptOpenJDK](https://adoptopenjdk.net)
 
 #### Compiling
-Find the place where you've cloned the repository and type in the address bar `cmd` to launch Command Prompt. In here you want to type `gradlew build`. If this is your first time building a mod on your computer, Gradle will take a bit longer to set itself up, but after that the mod will build, you will find the resulting `.jar` files in `build/gradle`. Once you have found the folder, you want to drag and drop `periodic-mod-fabric-X.X.X-SNAPSHOT.jar` into your mods directory and then you're good to go
+Find the place where you've cloned the repository and type in the address bar `cmd` to launch Command Prompt. In here you want to type `gradlew build`. If this is your first time building a mod on your computer, Gradle will take a bit longer to set itself up, but after that the mod will build, you will find the resulting `.jar` files in `build/gradle`. Once you have found the folder, you want to drag and drop `MoreFoodModFabric-X.X.X-SNAPSHOT.jar` into your mods directory and then you're good to go
 
 ----
 
