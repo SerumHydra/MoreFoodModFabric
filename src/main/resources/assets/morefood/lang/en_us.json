@@ -1,7 +1,8 @@
 {
-  "item.morefood.bacon": "Bacon Strip",
+  "item.morefood.cooked_bacon": "Cooked Bacon",
   "block.morefood.bacon_block": "Block of Bacon",
   "item.morefood.ice_cream": "Ice Cream",
   "itemGroup.morefood.food": "Food Items",
-  "item.morefood.noodles": "Noodles"
+  "item.morefood.noodles": "Noodles",
+  "item.morefood.raw_bacon": "Raw Bacon"
 }

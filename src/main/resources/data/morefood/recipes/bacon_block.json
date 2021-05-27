@@ -1,0 +1,18 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morefood:cooked_bacon"
+    }
+  },
+  "result": {
+    "item": "morefood:bacon_block",
+    "count": 1
+  }
+}

@@ -12,7 +12,7 @@ public class MoreFood implements ModInitializer {
 
     public static final String MOD_ID="morefood";
 
-    public static final ItemGroup FOOD_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "food"), () -> new ItemStack(Moditems.BACON));
+    public static final ItemGroup FOOD_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "food"), () -> new ItemStack(Moditems.COOKED_BACON));
 
     @Override
     public void onInitialize() {
