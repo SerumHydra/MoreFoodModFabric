@@ -13,6 +13,8 @@ public class Moditems {
     public static final Item ICE_CREAM = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(2).saturationModifier(4f).build()));
     public static final Item NOODLES = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(4).saturationModifier(6f).build()));
     public static final Item RAW_BACON = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(2).saturationModifier(2f).build()));
+    public static final Item MEATBALLS = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(2f).build()));
+    public static final Item ITALIAN_BREAD = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).build()));
     //Block Items
     public static final BlockItem BACON_BLOCK = new BlockItem(ModBlocks.BACON_BLOCK, new Item.Settings().group(MoreFood.FOOD_GROUP));
     //registry
@@ -22,5 +24,7 @@ public class Moditems {
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "ice_cream"), ICE_CREAM);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "noodles"), NOODLES);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "raw_bacon"), RAW_BACON);
+        Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "metballs"), MEATBALLS);
+        Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "italian_bread"), ITALIAN_BREAD);
     }
 }
