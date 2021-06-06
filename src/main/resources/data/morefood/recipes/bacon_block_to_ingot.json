@@ -1,0 +1,13 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morefood:bacon_block"
+    }
+  ],
+  "result": {
+    "item": "morefood:cooked_bacon",
+    "count": 9
+  }
+}
