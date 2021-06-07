@@ -1,6 +1,8 @@
 package com.serumhydra.morefood.registery;
 
 import com.serumhydra.morefood.MoreFood;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
@@ -16,6 +18,8 @@ public class Moditems {
     public static final Item MEATBALLS = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(2f).build()));
     public static final Item ITALIAN_BREAD = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(3).saturationModifier(4f).build()));
     public static final Item MEATBALL_SANDWHICH = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(6).saturationModifier(8f).build()));
+    public static final Item COFFEE = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,20*5),1f).build()));
+    public static final Item MONSTER = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,20*10),1f).build()));
     //Block Items
     public static final BlockItem BACON_BLOCK = new BlockItem(ModBlocks.BACON_BLOCK, new Item.Settings().group(MoreFood.FOOD_GROUP));
     //registry
@@ -28,5 +32,7 @@ public class Moditems {
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "meatballs"), MEATBALLS);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "italian_bread"), ITALIAN_BREAD);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "meatball_sandwhich"), MEATBALL_SANDWHICH);
+        Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "coffee"), COFFEE);
+        Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "monster_energy"), MONSTER);
     }
 }
