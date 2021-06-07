@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iy",
+    "//"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:wheat"
+    },
+    "/": {
+      "item": "minecraft:sugar"
+    },
+    "y": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "morefood:italian_bread",
+    "count": 1
+  }
+}
