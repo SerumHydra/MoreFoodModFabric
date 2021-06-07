@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    "iii",
+    "///"
+  ],
+  "key": {
+    "i": {
+      "item": "morefood:meatballs"
+    },
+    "/": {
+      "item": "morefood:italian_bread"
+    }
+  },
+  "result": {
+    "item": "morefood:meatball_sandwhich",
+    "count": 1
+  }
+}
