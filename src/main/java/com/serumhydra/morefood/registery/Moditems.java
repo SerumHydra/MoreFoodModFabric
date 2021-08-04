@@ -22,11 +22,10 @@ public class Moditems {
     public static final Item MONSTER_ORIGINAL = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,20*10),1f).build()));
     public static final Item DINO_NUGGIES = new Item(new Item.Settings().group(MoreFood.FOOD_GROUP).food(new FoodComponent.Builder().hunger(6).saturationModifier(6f).build()));
     //Block Items
-    public static final BlockItem BACON_BLOCK = new BlockItem(ModBlocks.BACON_BLOCK, new Item.Settings().group(MoreFood.FOOD_GROUP));
+
     //registry
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "cooked_bacon"), COOKED_BACON);
-        Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "bacon_block"), BACON_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "ice_cream"), ICE_CREAM);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "noodles"), NOODLES);
         Registry.register(Registry.ITEM, new Identifier(MoreFood.MOD_ID, "raw_bacon"), RAW_BACON);
