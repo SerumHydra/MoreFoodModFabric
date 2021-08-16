@@ -10,7 +10,7 @@
       "item": "morefood:meatballs"
     },
     "/": {
-      "item": "morefood:italian_bread"
+      "item": "minecraft:bread"
     }
   },
   "result": {
