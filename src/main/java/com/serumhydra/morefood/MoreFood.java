@@ -1,5 +1,6 @@
 package com.serumhydra.morefood;
 
+import com.serumhydra.morefood.registery.ModBlocks;
 import com.serumhydra.morefood.registery.Moditems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -16,6 +17,7 @@ public class MoreFood implements ModInitializer {
     @Override
     public void onInitialize() {
         Moditems.registerItems();
+        ModBlocks.registerBlocks();
 
 
 
