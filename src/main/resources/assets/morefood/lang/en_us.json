@@ -1,6 +1,5 @@
 {
   "item.morefood.cooked_bacon": "Cooked Bacon",
-  "block.morefood.bacon_block": "Block of Bacon",
   "item.morefood.ice_cream": "Ice Cream",
   "itemGroup.morefood.food": "Food Items",
   "item.morefood.noodles": "Noodles",
@@ -10,5 +9,6 @@
   "item.morefood.meatball_sandwhich": "Meatball Sandwhich",
   "item.morefood.coffee": "Coffee",
   "item.morefood.monster_energy_original": "Monster Energy Original",
-  "item.morefood.dino_nuggies": "Dinosaur Nuggets"
+  "item.morefood.dino_nuggies": "Dinosaur Nuggets",
+  "block.morefood.mincer": "Mincer"
 }
